@@ -1,0 +1,25 @@
+{
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "**/Thumbs.db": true,
+        "**/node_modules": true
+    },
+    "typescript.format.enable": true,
+    "typescript.autoClosingTags": true,
+    "typescript.suggestionActions.enabled": true,
+    "editor.showUnused": true,
+    // On save, run both fixAll and organizeImports source actions
+    "editor.codeActionsOnSave": {
+        "source.fixAll": true,
+        "source.organizeImports": true,
+        "source.addMissingImports": true
+    },
+    "typescript.referencesCodeLens.enabled": true,
+    "workbench.colorCustomizations": {
+        "activityBar.background": "#d6d6d6"
+    }
+}
